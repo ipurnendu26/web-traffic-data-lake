@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data files
+*.parquet
+*.snappy
+*.gz
+
+# Large generated files
+web-traffic-data-lake/data/raw/*.csv
+web-traffic-data-lake/data/sample_output/*
+!web-traffic-data-lake/data/sample_output/.gitkeep
+web-traffic-data-lake/docs/screenshots/*
+!web-traffic-data-lake/docs/screenshots/.gitkeep
+
+# Project artifacts
+*.log
